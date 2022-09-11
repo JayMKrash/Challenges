@@ -1,0 +1,55 @@
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url(https://fonts.google.com/specimen/Montserrat);
+* {
+  padding: 0;
+  margin: 0;
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+.container {
+  background-color: white;
+  display: flex;
+}
+
+.desktop-img {
+  max-width: 260px;
+  display: flex;
+}
+
+.mobile-img {
+  max-width: 260px;
+  display: flex;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution.a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-weight: 700;
+}
+
+.product {
+  font-family: "Montserrat";
+  color: hsl(228deg, 12%, 48%);
+}
+.product.product-text {
+  font-weight: 500;
+}
+.product.product-cat {
+  font-weight: 700;
+}
+.product.product-og-price {
+  text-decoration: line-through;
+}
+.product.product-new-price {
+  color: hsl(158deg, 36%, 37%);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

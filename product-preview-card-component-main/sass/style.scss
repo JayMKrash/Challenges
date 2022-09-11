@@ -1,0 +1,77 @@
+@import "./colors/colors.scss";
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: hsl(30, 38%, 92%);
+}
+
+@import url(https://fonts.google.com/specimen/Fraunces);
+@import url(https://fonts.google.com/specimen/Montserrat);
+
+.container {
+    background-color: white;
+    display: flex;
+
+}
+
+.item{
+    display: flex;
+    background-color: aquamarine;
+}
+
+.desktop-img {
+    max-width: 260px;
+    display: flex;
+}
+
+.mobile-img {
+    max-width: 260px;
+    display: flex;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    &.a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+// - Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+// - Weights: 700
+h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+}
+
+// - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+// - Weights: 500, 700
+
+.product {
+    font-family: "Montserrat";
+    color: $secondary-color;
+    
+    &.product-text {
+    font-weight: 500;
+    }
+    
+    &.product-cat {
+    font-weight: 700;
+    }
+    &.product-og-price {
+    text-decoration: line-through;
+    }
+    &.product-new-price {
+    color: $primary-color;
+    font-weight: 700;
+    }
+
+}
+
+.btn-buy {
+    width: 250px;
+    color: white;
+    background-color: $primary-color;
+    border-radius: 10px;
+}
